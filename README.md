@@ -6,9 +6,10 @@ Create a function to find the sum of all the multiples of a or b below n, where 
 #########
 Exercise on subclasses
 Create a class:
-Shape, with subclasses 
+Shape, with methods getArea and getPerimeter
+Shape has the following subclasses:
     Rectangle
-        Square and 
+        Square 
     Circle
 
 Create and populate an array of five shapes, and print their details in a loop.
