@@ -19,4 +19,33 @@ int foo(int i){
     return 0;
 }
 
-Console.WriteLine("Hello World "+foo(1000));
+Console.WriteLine("Hello World "+foo(20000));
+
+//define a MyStack class
+
+//use it
+
+MyStack m = new MyStack();
+
+m.push(4);
+m.push(5);
+m.push(2);
+Console.WriteLine(m.pop());
+m.push(4);
+m.push(7);
+m.push(2);
+while (m.size() > 0)
+{
+    Console.WriteLine(m.pop());
+}
+/*This should output:
+2
+2
+7
+4
+5
+4*/
+
+internal class MyStack
+{
+}
